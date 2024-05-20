@@ -57,7 +57,7 @@ def main():
         padding: 10px 0;
     }
     </style>
-<div class="footer">Made by: <a href="https://www.linkedin.com/in/abdellah-abrkaoui-815186229/">ABRKAOUI ABDELLAH</a> & <a href="https://github.com/ilyas-chrami">CHRAMI ILYAS</a></div>
+<div class="footer">Made by: <a href="https://www.linkedin.com/in/abdellah-abrkaoui-815186229/">ABRKAOUI ABDELLAH</a> & <a href="https://www.linkedin.com/in/ilyas-chrami-682551239/">CHRAMI ILYAS</a></div>
     """
     st.markdown(footer_html, unsafe_allow_html=True)
 
