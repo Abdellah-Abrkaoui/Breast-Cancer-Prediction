@@ -1,7 +1,8 @@
 import streamlit as st
 from joblib import load
 
-st.set_page_config(page_icon="path_to_favicon.ico")
+st.set_page_config(page_icon="favicon.webp",page_title="Breast Cancer Predicition")
+
 
 
 
@@ -34,7 +35,7 @@ def main():
     ]
     user_inputs = {}
     for feature in features:
-        user_inputs[feature] = st.sidebar.number_input(feature.capitalize())
+        user_inputs[feature] = st.sidebar.number_input(feature.capitalize(), min_value=0.0)
 
     # Prediction
     if st.button('Predict'):
